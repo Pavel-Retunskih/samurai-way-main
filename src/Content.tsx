@@ -18,6 +18,11 @@ export function Content() {
         <input type="text" name="" id="" />
         <button></button>
       </div>
+      <div>new post</div>
+      <div>new post</div>
+      <div>new post</div>
+      <div>new post</div>
+      <div>new post</div>
     </section>
   );
 }
