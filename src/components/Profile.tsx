@@ -1,4 +1,5 @@
-export function Content() {
+import "./Profile.css";
+export function Profile() {
   return (
     <section>
       <div className="image"></div>

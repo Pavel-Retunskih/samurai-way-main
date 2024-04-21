@@ -1,6 +1,7 @@
-export function Aside() {
+import "./Navbar.css";
+export function Navbar() {
   return (
-    <aside>
+    <nav>
       <ul>
         <li>Profile</li>
         <li>Messages</li>
@@ -8,6 +9,6 @@ export function Aside() {
         <li>Music</li>
         <li>Settings</li>
       </ul>
-    </aside>
+    </nav>
   );
 }
