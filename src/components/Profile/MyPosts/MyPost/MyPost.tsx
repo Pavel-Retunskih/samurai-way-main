@@ -1,11 +1,11 @@
-import s from "./Profile.module.css";
+import "./MyPosts.module.css";
 export function Profile() {
   return (
-    <section className={s.container}>
-      <div className={s.image}></div>
-      <div className={s.profile}>
-        <div className={s.profileImg}></div>
-        <div className={s.profileDescription}>
+    <section>
+      <div className="image"></div>
+      <div className="profile">
+        <div className="profileImg"></div>
+        <div className="profileDescription">
           <h3>Dmitry K</h3>
           <ul>
             <li>Date of bird: 2 january</li>
