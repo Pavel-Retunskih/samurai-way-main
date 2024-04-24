@@ -2,11 +2,16 @@ nav {
   max-width: 200px;
   width: 100%;
   background: #8ddc90;
+  padding-left: 20px;
 }
 
-.item {
+.item a {
   color: aliceblue;
 }
-.item.active {
+
+a.activeLink {
   color: yellow;
+}
+ul {
+  list-style: none;
 }
