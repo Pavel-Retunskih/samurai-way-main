@@ -1,3 +1,4 @@
+import { MyPosts } from "./MyPosts/MyPosts";
 import s from "./Profile.module.css";
 export function Profile() {
   return (
@@ -15,15 +16,7 @@ export function Profile() {
           </ul>
         </div>
       </div>
-      <div className="posts">
-        <input type="text" name="" id="" />
-        <button></button>
-      </div>
-      <div>new post</div>
-      <div>new post</div>
-      <div>new post</div>
-      <div>new post</div>
-      <div>new post</div>
+      <MyPosts />
     </section>
   );
 }
